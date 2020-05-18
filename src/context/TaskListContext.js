@@ -11,9 +11,9 @@ const TaskListContextProvider = (props) => {
     ]);
     return (
         <div>
-            <TaskListContextProvider  value={{tasks}}>
+            <TaskListContext.Provider value={{tasks}}>
                 {props.children}
-            </TaskListContextProvider>
+            </TaskListContext.Provider>
         </div>
     ) 
 }
